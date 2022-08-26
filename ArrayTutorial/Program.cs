@@ -35,6 +35,11 @@ string answer = Console.ReadLine();
 scores[2] = Convert.ToInt32(answer);
 
 Console.Write("Enter 3rd score: ");
+string answer = Console.ReadLine();
+scores[3] = Convert.ToInt32(answer);
+
+int total = scores[0] + scores[1] + scores[3];
+Console.WriteLine($"Your scores are {scores[0], scores[1], scores[3]} and total is {total}");
 */
 
 
